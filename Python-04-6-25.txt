@@ -1,0 +1,45 @@
+1. Create a String
+
+  a = "10"
+
+  # Constructor way
+  h = str("hello")
+
+2. Access Characters Using Index
+
+name = "string"
+print(name[0])  
+print(name[3])  
+
+3. Find Length of a String (Without using len())
+
+text = "chaitanya"
+count = 0
+for _ in text:
+    count += 1
+print("Length:", count)
+
+4. Count of 'a' in a String
+
+text = "chaitanya"
+count = 0
+for ch in text:
+    if ch == 'a':
+        count += 1
+print("Count of 'a':", count)
+
+5. Reverse a String
+
+text = "chaitanya"
+reversed_text = text[::-1]
+print("Reversed:", reversed_text)
+
+6. Count Vowels (a, e, i, o, u)
+
+text = "chaitanya"
+vowels = "aeiou"
+count = 0
+for ch in text:
+    if ch.lower() in vowels:
+        count += 1
+print("Vowel count:", count)
